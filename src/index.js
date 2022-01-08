@@ -3,8 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 
-// Import ThirdWeb
 import { ThirdwebWeb3Provider } from '@3rdweb/hooks';
+
+//Importing and configuring our .env file that we use to securely store our environment variables
+import dotenv from "dotenv";
+dotenv.config();
+
+// Import ThirdWeb
 
 // Include what chains you wanna support.
 // 4 = Rinkeby.
